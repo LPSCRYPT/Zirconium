@@ -1,0 +1,3 @@
+# Blockchain integration requirements
+web3>=6.0.0
+eth-account>=0.9.0

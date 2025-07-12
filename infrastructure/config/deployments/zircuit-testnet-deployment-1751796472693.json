@@ -1,0 +1,30 @@
+{
+  "timestamp": "2025-07-06T10:07:41.781Z",
+  "network": "zircuit_testnet",
+  "chainId": 48898,
+  "deployer": "0x2b9Dc93a21fe63F7e388740C3E24089A1Dbea000",
+  "initialBalance": "0.038224506616209513",
+  "contracts": {
+    "ProductionRWKVVerifier": {
+      "address": "0xFbd3323361E55fbfF58134933262368b76FD41e8",
+      "gasUsed": "2088747",
+      "costETH": "0.02088747",
+      "txHash": "0xf076412a989229fcd94fc814a0391b3716c9bf2a5cc804ac07775ba98538e08c",
+      "blockNumber": 5729994
+    },
+    "ProductionMambaVerifier": {
+      "error": "insufficient funds for gas * price + value: balance 17336444082924884, tx cost 25000592712195008, overshot 7664148629270124",
+      "failed": true
+    },
+    "ProductionxLSTMVerifier": {
+      "error": "insufficient funds for gas * price + value: balance 17336444082924884, tx cost 25000583424723615, overshot 7664139341798731",
+      "failed": true
+    }
+  },
+  "totalGasUsed": 2088747,
+  "totalCostETH": "0.020888062533284629",
+  "deploymentHashes": [
+    "0xf076412a989229fcd94fc814a0391b3716c9bf2a5cc804ac07775ba98538e08c"
+  ],
+  "finalBalance": "0.017336444082924884"
+}

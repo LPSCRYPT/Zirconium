@@ -1,0 +1,16 @@
+{
+  "network": "localhost",
+  "timestamp": "2025-07-08T03:15:20.486Z",
+  "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+  "contracts": {
+    "RWKVVerifier": "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
+    "MambaVerifier": "0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6",
+    "xLSTMVerifier": "0x8A791620dd6260079BF849Dc5567aDC3F2FdC318",
+    "ProofChainOrchestrator": "0x610178dA211FEF7D417bC0e6FeD39F05609AD788"
+  },
+  "architectures": {
+    "rwkv": "RWKV",
+    "mamba": "Mamba",
+    "xlstm": "xLSTM"
+  }
+}

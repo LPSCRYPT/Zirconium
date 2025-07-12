@@ -1,0 +1,9 @@
+{
+  "network": "localhost",
+  "chainId": 31337,
+  "timestamp": "2025-07-09T21:07:21.905Z",
+  "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+  "contract": {
+    "WeatherVerifier": "0x90b97E83e22AFa2e6A96b3549A0E495D5Bae61aF"
+  }
+}

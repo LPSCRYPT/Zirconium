@@ -1,0 +1,11 @@
+{
+  "network": "flow_testnet",
+  "chainId": 545,
+  "timestamp": "2025-07-06T09:14:09.958Z",
+  "contracts": {
+    "ProductionRWKVVerifier": "0x11901646b0F6B9D744116c060b16988487135Dc2",
+    "ProductionMambaVerifier": "0xFbd3323361E55fbfF58134933262368b76FD41e8",
+    "ProductionxLSTMVerifier": "0xc009b7Aa419E402f5a9e6ae4C7a220573c46BfF4",
+    "AgenticOrchestrator": "0x65a30EcAd9714Fb1c4d14bd908fc10B4a81D07D5"
+  }
+}

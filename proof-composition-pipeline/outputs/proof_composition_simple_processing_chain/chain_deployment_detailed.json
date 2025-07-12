@@ -1,0 +1,56 @@
+{
+  "chainId": "simple_processing_chain",
+  "network": {
+    "name": "localhost",
+    "chainId": "31337"
+  },
+  "deployer": {
+    "address": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+    "balanceAfter": "9995.235410076071016429"
+  },
+  "chainVerifier": {
+    "address": "0x25C0a2F0A077F537Bd11897F04946794c2f6f1Ef",
+    "deployTx": "0xdad2cb0eb64df0c55918cdbd681fefbb805bc8f4ff4e230cdd8dab5cd84f046e",
+    "gasUsed": "524286",
+    "gasPrice": "20000000000"
+  },
+  "stepVerifiers": [
+    {
+      "step": 0,
+      "name": "feature_extractor",
+      "address": "0x01cf58e264d7578D4C67022c58A24CbC4C4a304E",
+      "deployTx": "0x76ab7a9126d3a5795b0e3d8bbaa0b8ca05d2fbbe92416a4be7d707cc38efdfad",
+      "gasUsed": "3046112",
+      "gasPrice": "20000000000"
+    },
+    {
+      "step": 1,
+      "name": "classifier",
+      "address": "0xd038A2EE73b64F30d65802Ad188F27921656f28F",
+      "deployTx": "0xec41323f231b6a90ee4ff98d526032c9631caa77faaef3178060bae05ae17e5f",
+      "gasUsed": "4446221",
+      "gasPrice": "20000000000"
+    },
+    {
+      "step": 2,
+      "name": "decision_maker",
+      "address": "0x666432Ccb747B2220875cE185f487Ed53677faC9",
+      "deployTx": "0xb781986d189bbeb289738b1dbd2c20bc91d819c3ece0eda3a5547684a54ae1cb",
+      "gasUsed": "3459249",
+      "gasPrice": "20000000000"
+    }
+  ],
+  "configuration": {
+    "setAddressesTx": "0x8804f8313fc16d472477a9dbd447577c5c1e48a77f650c72200a76a7a5b85f85",
+    "gasUsed": "90425",
+    "gasPrice": "20000000000"
+  },
+  "summary": {
+    "totalContracts": 4,
+    "totalTransactions": 5,
+    "totalGasUsed": "11566293",
+    "totalCostETH": "0.23132586",
+    "avgGasPriceGwei": "20.0"
+  },
+  "timestamp": "2025-07-10T09:17:16.332Z"
+}

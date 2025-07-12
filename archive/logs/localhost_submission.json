@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-07-09T22:54:05.168635",
+  "network": "localhost",
+  "chain_id": 31337,
+  "verifier_contract": "0xF66CfDf074D2FFD6A4037be3A669Ed04380Aef2B",
+  "submitter": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+  "prediction": {
+    "temperature": "62.8\u00b0F",
+    "conditions": "Cloudy",
+    "location": "San Francisco",
+    "date": "July 10, 2025"
+  },
+  "proof_size": 35511,
+  "status": "ready_for_submission"
+}

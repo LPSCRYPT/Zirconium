@@ -1,0 +1,26 @@
+{
+  "pipeline": "Financial Risk Analysis",
+  "models": [
+    "rwkv_simple",
+    "mamba_simple",
+    "xlstm_simple"
+  ],
+  "proofs": [
+    {
+      "model": "rwkv_simple",
+      "proof_file": "verification_package/proofs/rwkv_simple_proof.json",
+      "verification_command": "ezkl verify --proof-path verification_package/proofs/rwkv_simple_proof.json"
+    },
+    {
+      "model": "mamba_simple",
+      "proof_file": "verification_package/proofs/mamba_simple_proof.json",
+      "verification_command": "ezkl verify --proof-path verification_package/proofs/mamba_simple_proof.json"
+    },
+    {
+      "model": "xlstm_simple",
+      "proof_file": "verification_package/proofs/xlstm_simple_proof.json",
+      "verification_command": "ezkl verify --proof-path verification_package/proofs/xlstm_simple_proof.json"
+    }
+  ],
+  "verification_commands": []
+}

@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-07-06T09:13:37.697Z",
+  "network": "flow_testnet",
+  "chainId": 545,
+  "deployer": "0x2b9Dc93a21fe63F7e388740C3E24089A1Dbea000",
+  "initialBalance": "100000.0",
+  "contracts": {
+    "ProductionRWKVVerifier": {
+      "error": "HH701: There are multiple artifacts for contract \"ProductionRWKVVerifier\", please use a fully qualified name.\n\nPlease replace ProductionRWKVVerifier for one of these options wherever you are trying to read its artifact:\n\ncontracts/ProductionRWKVVerifier.sol:ProductionRWKVVerifier\ncontracts/verifiers/ProductionRWKVVerifier.sol:ProductionRWKVVerifier\n",
+      "failed": true
+    },
+    "ProductionMambaVerifier": {
+      "error": "HH701: There are multiple artifacts for contract \"ProductionMambaVerifier\", please use a fully qualified name.\n\nPlease replace ProductionMambaVerifier for one of these options wherever you are trying to read its artifact:\n\ncontracts/ProductionMambaVerifier.sol:ProductionMambaVerifier\ncontracts/verifiers/ProductionMambaVerifier.sol:ProductionMambaVerifier\n",
+      "failed": true
+    },
+    "ProductionxLSTMVerifier": {
+      "error": "HH701: There are multiple artifacts for contract \"ProductionxLSTMVerifier\", please use a fully qualified name.\n\nPlease replace ProductionxLSTMVerifier for one of these options wherever you are trying to read its artifact:\n\ncontracts/ProductionxLSTMVerifier.sol:ProductionxLSTMVerifier\ncontracts/verifiers/ProductionxLSTMVerifier.sol:ProductionxLSTMVerifier\n",
+      "failed": true
+    }
+  },
+  "totalGasUsed": 0,
+  "totalCostFLOW": "0.0",
+  "deploymentHashes": [],
+  "finalBalance": "100000.0"
+}

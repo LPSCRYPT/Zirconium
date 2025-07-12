@@ -1,0 +1,8 @@
+{
+  "network": "zircuit_testnet",
+  "chainId": 48898,
+  "timestamp": "2025-07-06T10:07:41.781Z",
+  "contracts": {
+    "ProductionRWKVVerifier": "0xFbd3323361E55fbfF58134933262368b76FD41e8"
+  }
+}

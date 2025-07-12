@@ -1,0 +1,66 @@
+{
+  "chain_id": "simple_sequential_processing_chain",
+  "description": "Sequential on-chain: feature extraction -> classification -> decision making",
+  "composition_type": "sequential_on_chain",
+  "models": [
+    {
+      "position": 0,
+      "name": "feature_extractor",
+      "input_shape": [
+        10
+      ],
+      "output_shape": [
+        8
+      ],
+      "domain": "feature_extraction"
+    },
+    {
+      "position": 1,
+      "name": "classifier",
+      "input_shape": [
+        8
+      ],
+      "output_shape": [
+        5
+      ],
+      "domain": "classification"
+    },
+    {
+      "position": 2,
+      "name": "decision_maker",
+      "input_shape": [
+        5
+      ],
+      "output_shape": [
+        3
+      ],
+      "domain": "decision_making"
+    }
+  ],
+  "data_flow_shapes": [
+    10,
+    8,
+    5,
+    3
+  ],
+  "execution_model": {
+    "type": "sequential",
+    "on_chain": true,
+    "intermediate_values_visible": true,
+    "atomic_execution": true
+  },
+  "generated_contracts": [
+    "SequentialChainExecutor.sol",
+    "EnhancedFeature_ExtractorVerifier.sol",
+    "EnhancedClassifierVerifier.sol",
+    "EnhancedDecision_MakerVerifier.sol",
+    "step00_feature_extractorVerifier.sol",
+    "step01_classifierVerifier.sol",
+    "step02_decision_makerVerifier.sol"
+  ],
+  "deployment_scripts": [
+    "deploy_sequential_chain.js",
+    "test_sequential_chain.js"
+  ],
+  "timestamp": "{}"
+}

@@ -1,0 +1,71 @@
+{
+  "prediction": {
+    "date": "2025-07-07",
+    "location": "San Francisco, CA",
+    "predicted_temp_f": 65.0,
+    "condition": "cloudy",
+    "confidence": 0.7201330197921482,
+    "method": "xLSTM Neural Network"
+  },
+  "model_output": [
+    1.1849117279052734,
+    -0.7794045209884644,
+    0.2758072018623352,
+    -2.7540643215179443
+  ],
+  "proof_preparation": {
+    "proof_components": 13,
+    "public_inputs": [
+      65,
+      2,
+      72,
+      1
+    ],
+    "proof_size_bytes": 416
+  },
+  "contract_verification": {
+    "success": true,
+    "inference_id": "0x1b9a9b845c779fb81afa0e1fd95836d5d51581d87319374990ca1366df486335",
+    "gas_used": 175000,
+    "cost_eth": 0.0035,
+    "verification_passed": true
+  },
+  "blockchain_transaction": {
+    "success": true,
+    "transaction_hash": "0xb030af85e0e1d427ccf2fc630725876540ef7ce890dbef5374eec4128d77d201",
+    "block_number": 7123456,
+    "timestamp": 1751785306,
+    "from_address": "0x742d35Cc6635Cf532793a61a0a5d08D1AE0C4e7E",
+    "to_address": "0x52a55dEBE04124376841dF391Ef0e4eF1dd6835B",
+    "gas_used": 175000,
+    "cost_eth": 0.0035,
+    "inference_id": "0x1b9a9b845c779fb81afa0e1fd95836d5d51581d87319374990ca1366df486335",
+    "etherscan_url": "https://sepolia.etherscan.io/tx/0xb030af85e0e1d427ccf2fc630725876540ef7ce890dbef5374eec4128d77d201"
+  },
+  "on_chain_storage": {
+    "success": true,
+    "inference_id": "0x1b9a9b845c779fb81afa0e1fd95836d5d51581d87319374990ca1366df486335",
+    "stored_data": {
+      "user": "0x742d35Cc6635Cf532793a61a0a5d08D1AE0C4e7E",
+      "prompt": "Weather prediction for SF on 2025-07-07",
+      "continuation": "Temperature: 65.0\u00b0F, Condition: cloudy, Confidence: 72.0%",
+      "timestamp": 1751785306,
+      "verified": true,
+      "proofHash": "0xd97014586d7772832d20c369fb0226f96e6987ec00d068abbf5a179a404394c7"
+    },
+    "blockchain": "Ethereum Sepolia Testnet",
+    "contract": "ProductionxLSTMVerifier",
+    "publicly_verifiable": true,
+    "immutable": true
+  },
+  "verification_details": {
+    "architecture": "xLSTM Neural Network",
+    "proof_system": "Plonk over BN254",
+    "security_level": "128-bit",
+    "contract_address": "0x52a55dEBE04124376841dF391Ef0e4eF1dd6835B",
+    "blockchain": "Ethereum Sepolia Testnet",
+    "publicly_verifiable": true,
+    "tamper_proof": true,
+    "permanent": true
+  }
+}

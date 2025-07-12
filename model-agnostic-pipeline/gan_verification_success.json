@@ -1,0 +1,12 @@
+{
+  "model": "gan_simple",
+  "status": "PROVEN",
+  "gasUsed": "677592",
+  "transactionHash": "0xf314b357d509f8966219b2221c8d2d5e77322a50c1f78361a167b161458220e4",
+  "verifierAddress": "0xa82fF9aFd8f496c3d6ac40E2a0F282E47488CFc9",
+  "method": "low_level_transaction",
+  "description": "Ultra-simple GAN Generator for 8x8 image generation",
+  "architecture": "3-layer MLP Generator",
+  "domain": "generative_modeling",
+  "timestamp": "2025-07-10T19:50:58.732Z"
+}

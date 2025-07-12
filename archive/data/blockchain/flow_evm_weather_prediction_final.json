@@ -1,0 +1,42 @@
+{
+  "prediction": {
+    "date": "2025-07-07",
+    "location": "San Francisco, CA",
+    "predicted_temp_f": 65.0,
+    "condition": "cloudy",
+    "confidence": 0.7201330197921482,
+    "method": "xLSTM Neural Network"
+  },
+  "model_output": [
+    1.1849117279052734,
+    -0.7794045209884644,
+    0.2758072018623352,
+    -2.7540643215179443
+  ],
+  "blockchain_submission": {
+    "success": false,
+    "error": "Transaction failed",
+    "simulation": false
+  },
+  "verification": {
+    "verified": false,
+    "simulation": false,
+    "error": "Transaction failed",
+    "contract_address": "N/A",
+    "timestamp": 0,
+    "publicly_verifiable": false
+  },
+  "summary": {
+    "prediction_date": "2025-07-07",
+    "predicted_temperature": 65.0,
+    "condition": "cloudy",
+    "confidence": 0.7201330197921482,
+    "model": "xLSTM Neural Network",
+    "blockchain": "Flow EVM Testnet",
+    "chain_id": 545,
+    "contract": "ProductionxLSTMVerifier",
+    "verifiable": true,
+    "publicly_accessible": true,
+    "flow_explorer_url": ""
+  }
+}

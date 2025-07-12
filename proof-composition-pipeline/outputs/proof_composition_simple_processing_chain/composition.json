@@ -1,0 +1,136 @@
+{
+  "chain_id": "simple_processing_chain",
+  "description": "Feature extraction followed by classification and decision making",
+  "models": [
+    {
+      "position": 0,
+      "chain_id": "simple_processing_chain",
+      "is_input": true,
+      "is_output": false,
+      "model_config": {
+        "name": "feature_extractor",
+        "description": "Feature extraction from raw input",
+        "architecture": "2-layer MLP with ReLU",
+        "domain": "feature_extraction",
+        "status": "\ud83d\udd17 COMPOSABLE",
+        "chain_position": "input",
+        "input_size": 10,
+        "output_size": 8,
+        "input_shape": [
+          10
+        ],
+        "output_shape": [
+          8
+        ],
+        "composition_compatible": true,
+        "supports_chaining": true
+      },
+      "proof_info": {
+        "proof_size": 23017,
+        "output_dir": "/var/folders/g_/0lmpstls0rb77zn2309xwyt80000gn/T/pcp_temp_simple_processing_chain_ddbrzvxx/model_0_feature_extractor"
+      }
+    },
+    {
+      "position": 1,
+      "chain_id": "simple_processing_chain",
+      "is_input": false,
+      "is_output": false,
+      "model_config": {
+        "name": "classifier",
+        "description": "Classification from extracted features",
+        "architecture": "2-layer MLP with Softmax",
+        "domain": "classification",
+        "status": "\ud83d\udd17 COMPOSABLE",
+        "chain_position": "middle",
+        "input_size": 8,
+        "output_size": 5,
+        "input_shape": [
+          8
+        ],
+        "output_shape": [
+          5
+        ],
+        "composition_compatible": true,
+        "supports_chaining": true
+      },
+      "proof_info": {
+        "proof_size": 36032,
+        "output_dir": "/var/folders/g_/0lmpstls0rb77zn2309xwyt80000gn/T/pcp_temp_simple_processing_chain_ddbrzvxx/model_1_classifier"
+      }
+    },
+    {
+      "position": 2,
+      "chain_id": "simple_processing_chain",
+      "is_input": false,
+      "is_output": true,
+      "model_config": {
+        "name": "decision_maker",
+        "description": "Final decision making from classification probabilities",
+        "architecture": "2-layer MLP with Sigmoid",
+        "domain": "decision_making",
+        "status": "\ud83d\udd17 COMPOSABLE",
+        "chain_position": "output",
+        "input_size": 5,
+        "output_size": 3,
+        "input_shape": [
+          5
+        ],
+        "output_shape": [
+          3
+        ],
+        "composition_compatible": true,
+        "supports_chaining": true
+      },
+      "proof_info": {
+        "proof_size": 25328,
+        "output_dir": "/var/folders/g_/0lmpstls0rb77zn2309xwyt80000gn/T/pcp_temp_simple_processing_chain_ddbrzvxx/model_2_decision_maker"
+      }
+    }
+  ],
+  "data_flow": [
+    [
+      [
+        1.5,
+        -0.8,
+        2.1,
+        0.3,
+        -1.2,
+        0.9,
+        -0.4,
+        1.8,
+        0.6,
+        -0.7
+      ]
+    ],
+    [
+      [
+        0.9227709450375736,
+        0.0,
+        0.0,
+        0.3924513898821635,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.19274819130434317,
+        0.1831036075744278,
+        0.2624648746071644,
+        0.16438408175564542,
+        0.19729924475841923
+      ]
+    ],
+    [
+      [
+        0.0,
+        1.0,
+        0.0
+      ]
+    ]
+  ],
+  "proof_count": 3,
+  "composition_type": "sequential_chain"
+}

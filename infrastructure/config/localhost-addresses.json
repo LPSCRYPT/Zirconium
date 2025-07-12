@@ -1,0 +1,11 @@
+{
+  "network": "localhost",
+  "chainId": 31337,
+  "timestamp": "2025-07-09T22:18:58.647Z",
+  "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+  "contracts": {
+    "xLSTMVerifier": "0xccA9728291bC98ff4F97EF57Be3466227b0eb06C",
+    "RWKVVerifier": "0xc6B407503dE64956Ad3cF5Ab112cA4f56AA13517",
+    "MambaVerifier": "0x3a622DB2db50f463dF562Dc5F341545A64C580fc"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "transactionHash": "0x391aa10a3ae348bcb9d353261419bfe271ef742954920bf8f1c0f7be131eee1d",
+  "gasUsed": "1799329",
+  "contractAddress": "0xf5059a5D33d5853360D16C683c16e67980206f36",
+  "model": "gan_compact",
+  "resolution": "16x16 RGB",
+  "circuitRows": 174641,
+  "parameters": 241984,
+  "outputSize": 768,
+  "architecture": "4-layer MLP Generator",
+  "domain": "Generative Modeling",
+  "timestamp": "2025-07-11T10:15:44.755Z",
+  "milestone": "First 16x16 RGB GAN verified on blockchain",
+  "comparison": {
+    "previous_gan": {
+      "model": "gan_simple",
+      "resolution": "8x8 grayscale", 
+      "gasUsed": "677592"
+    },
+    "improvement": {
+      "resolution_increase": "4x (64 -> 256 pixels)",
+      "color_channels": "3x (grayscale -> RGB)",
+      "total_output_increase": "12x (64 -> 768 values)",
+      "gas_increase": "2.65x"
+    }
+  }
+}

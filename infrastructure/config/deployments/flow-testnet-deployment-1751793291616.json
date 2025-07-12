@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-07-06T09:14:09.958Z",
+  "network": "flow_testnet",
+  "chainId": 545,
+  "deployer": "0x2b9Dc93a21fe63F7e388740C3E24089A1Dbea000",
+  "initialBalance": "100000.0",
+  "contracts": {
+    "ProductionRWKVVerifier": {
+      "address": "0x11901646b0F6B9D744116c060b16988487135Dc2",
+      "gasUsed": "2088747",
+      "costFLOW": "0.04177494",
+      "txHash": "0x094912ab67adfbf4e68071508b7a1d68cb2fe3af69eec027f5ad0a306af2ca25",
+      "blockNumber": 56438727
+    },
+    "ProductionMambaVerifier": {
+      "address": "0xFbd3323361E55fbfF58134933262368b76FD41e8",
+      "gasUsed": "2088963",
+      "costFLOW": "0.04177926",
+      "txHash": "0xa5281a9210d391b87a9138c7f96adeb5bd00952db0f397cc97fd06f1a0bb9b80",
+      "blockNumber": 56438749
+    },
+    "ProductionxLSTMVerifier": {
+      "address": "0xc009b7Aa419E402f5a9e6ae4C7a220573c46BfF4",
+      "gasUsed": "2088963",
+      "costFLOW": "0.04177926",
+      "txHash": "0x1ce6d8feaf3b8d6186b0710892c77c3c40182089431a595f03ce62bbb305f94e",
+      "blockNumber": 56438771
+    },
+    "AgenticOrchestrator": {
+      "address": "0x65a30EcAd9714Fb1c4d14bd908fc10B4a81D07D5",
+      "gasUsed": "2112435",
+      "costFLOW": "0.0422487",
+      "txHash": "0x77cd5621ddd45a75a44dbefb75022250fa2821b33d6b15a9988d393feceee81f",
+      "blockNumber": 56438792
+    }
+  },
+  "totalGasUsed": 6266673,
+  "totalCostFLOW": "0.12533346",
+  "deploymentHashes": [
+    "0x094912ab67adfbf4e68071508b7a1d68cb2fe3af69eec027f5ad0a306af2ca25",
+    "0xa5281a9210d391b87a9138c7f96adeb5bd00952db0f397cc97fd06f1a0bb9b80",
+    "0x1ce6d8feaf3b8d6186b0710892c77c3c40182089431a595f03ce62bbb305f94e"
+  ],
+  "finalBalance": "99999.87466654"
+}
